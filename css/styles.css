@@ -1,21 +1,20 @@
 body {
-  margin: 0;/*margin is 0 from the top bottom right left everywhere*/
-  text-align:center;/*mamatlb jo bhi text hai usko centre pe laana*/
+  margin: 0;
+  text-align:center;
 
-  font-family: 'Merriweather',serif;/*which means ki poori body me Merriweatherfont use karo*/
+  font-family: 'Merriweather',serif;
   font-size: 100%;
   color: #40514E;
 }
 h1 {
-  margin:50px auto 0 auto;/* kyuki apne ko top se 50px rakhna tha...aur bottom se..matlb a programmer waale text se no distance means zero px..and auto means default..plss note that ye apan clockwise ginte hai*/
-  font-family: 'Sacramento',cursive; /*but h1 me Sacramento use karo*/
-  font-size: 5.625rem;/* we wanted 90px and we know 100%=16px...so do math u will get 562.5%...we can also specify this in em instead of percentages...16px=100%=1 em...so 90 px we wanted =5.625em...em and % use karne ka faayda ye hota hai ye agr user apne chrome ke preferences me jaake font size reduce karna chaahta hai toh wo reduce hoga...in em and % but px me nhi hoga... on alternatively ppl use zoom in and zoom out..so ye em px % zyaada kuch ukhaadte nhi..but u should know..but if we change body ka font size tab toh ye aur bada hojaayega...so therefore in CSS 3 we use rem...toh fir body ka size kitta bhi kardo..rem change nhi hoga...sochoooooo*/
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento',cursive; 
+  font-size: 5.625rem; 
   color: #66BFBF;
   line-height: 2;
 }
 h3{
-  font-family: 'Montserrat',sans-serif;/*aur isme montserrat*/
-  font-size: 2.5rem;
+  font-family: 'Montserrat',sans-serif;
   color: #66BFBF;
   font-weight: normal;
 }
@@ -27,7 +26,7 @@ color:  #11999E;
 }
 
 .top-container{
-  position: relative;/*matlb iske relative me apan dono clouds ko psn karengey*/
+  position: relative;
   padding-top: 100px;
     background-color:#E4F9F5;
 }
@@ -51,20 +50,20 @@ color:  #11999E;
   color: #11999E;
 }
 
-/*now if we want to change skill row width...as its text is covering whole screen and we want it 50% we will do*/
+
 .skill-row{
-  width: 50%;/* due to this whole row will shift left that is 50%*/
+  width: 50%;
   margin: 100px auto 220px auto;
   text-align: left;
 
 
-  /* now what if we want everything again at the centre ? put margin:auto..then everything will be at center..but if we want proper spacing the do..margin:100px auto 100px auto or any px u want in clockwise...do it by yourself*/
+  
 }
 .chess{
   width: 17%;
-  /*now how to put your text on right side of your image..this is what floating is */
+  
 float: left;
-margin-right: 50px;/*distance between text and img*/
+margin-right: 50px;
 
 }
 
@@ -75,24 +74,23 @@ margin-left: 5px;
 
 
 }
-/* this is used for image size*/
 .middle-container{
-  padding-top: 100px;/* means ooper se 100px ka gap dena */
+  padding-top: 100px;
 }
-.intro{
-  width: 30%;/* means it will take half  of page..and will go towards left...smjhoo...matlb iska width 30 percent ho jaaayega iske parent container ke..that is 30 percemt of whole page*/
-  margin: auto;/* means centre me le aayega isko*/
+.intro
+  width: 30%;
+  margin: auto;
 
 }
 p{
-  line-height: 2;/* sbhi paragraph ka line height matlb distance between line jo default hota hai usse double ho jaayega*/
+  line-height: 2;
 }
 
 hr{
-  border:dotted #EAF6F6 6px; /* means border dotted hoga color hex code ka hoga ..aur width matlb size 6px hoga*/
+  border:dotted #EAF6F6 6px; 
   border-bottom: none;
-  width: 5%;/* means size of the border*/
-  margin: 100px auto 100px auto;/* to centre that in the middle...sochoooooo*/
+  width: 5%;
+  margin: 100px auto 100px auto;
 }
 
 
@@ -134,18 +132,18 @@ hr{
   padding-bottom: 30px;
 }
 a{
-  /* a is used for anchor tags..tumhaare linkedin,twitter ke link waale tags ko bolte hai*/
+  
   color:#30e3cb;
-  text-decoration :none; /* by default browser link ke neeche underline karke aata hai..apan usko bs hataye hai*/
+  text-decoration :none; 
 
   font-family: 'Montserrat',sans-serif;
-  margin: 10px 20px/* means 10 px top and right margina and 20 px bottom and left margin*/
+  margin: 10px 20px
 
 
 }
 a:hover{
 color:  #EAF6F6
-/*matlb anchor tag ka hover hona*/}
+}
 
 .copyright{
   color: #EAF6F6;
